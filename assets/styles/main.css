@@ -1,0 +1,267 @@
+/* Fonts | Omonjon */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap');
+
+/* Bootstrap tools | Omonjon */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-transition: 0.4s;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.line-h-initial {
+    line-height: initial;
+}
+
+label {
+    cursor: pointer;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    cursor: default;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+button[aria-expanded^="true"] i {
+    background-color: var(--bs-primary) !important;
+    transform: rotate(-180deg) !important;
+    color: black !important;
+    box-shadow: 0px 8px 18px -8px rgba(116, 246, 0, 0.90);
+}
+
+.box-shadow-none {
+    box-shadow: none !important;
+}
+
+.primary-shadow {
+    box-shadow: 0 4px 8px 0 #00000008;
+}
+
+.text-gray {
+    color: var(--bs-gray);
+}
+
+.bg-gray {
+    background: #EFF2FC;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.border-end-dashed {
+    border-right: 1px dashed var(--bs-border-color);
+}
+
+.border-start-dashed {
+    border-left: 1px dashed var(--bs-border-color);
+}
+
+.filter-invert-1 {
+    filter: invert(1);
+}
+
+.fs-6 {
+    font-size: 1.125rem !important;
+}
+
+.fs-7 {
+    font-size: 1rem !important;
+}
+
+.fs-8 {
+    font-size: 0.875rem !important;
+}
+
+.fs-9 {
+    font-size: 0.75rem !important;
+}
+
+.border-top-dashed {
+    border-top: 1px dashed var(--bs-border-color);
+}
+
+.w-max-content {
+    width: max-content !important;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.transition {
+    transition: .3s !important;
+}
+
+input,
+button {
+    outline: none;
+    border: 0;
+}
+
+.border-none {
+    border: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+li,
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ==================== HEADER | Omonjon ==================== */
+#header-menu {
+    background-color: transparent;
+    padding-top: 30px;
+
+    .filter-invert-1 {
+        filter: invert(0);
+    }
+}
+
+.sticky {
+    position: fixed !important;
+    top: 0;
+    padding: 15px 0 !important;
+    width: 100%;
+    background: white !important;
+    z-index: 10;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+
+    ul li a {
+        color: var(--bs-black) !important;
+        border-color: black !important;
+    }
+
+    ul li .text-primary {
+        color: var(--bs-primary) !important;
+    }
+
+    .filter-invert-1 {
+        filter: invert(1) !important;
+    }
+
+    .btn-outline-light {
+        border-color: black;
+        color: black;
+    }
+
+    .btn-outline-light:hover {
+        color: white;
+        border: 1px solid transparent;
+        background: black;
+    }
+}
+
+.header {
+    background: url(../images/intro-bg.png) no-repeat center/cover;
+    min-height: 544px;
+}
+
+
+/*=============== SCROLL BAR | Omonjon ===============*/
+::-webkit-scrollbar {
+    width: .6rem;
+    border-radius: .5rem;
+    background-color: hsla(93, 36%, 26%, 0.71)
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--bs-primary);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--bs-secondary);
+}
+
+/*=============== SCROLL UP | Omonjon ===============*/
+.scroll_up {
+    position: fixed;
+    right: 3.5rem;
+    bottom: -100%;
+    background-color: var(--bs-primary);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: inline-flex;
+    padding: .35rem;
+    border-radius: .25rem;
+    font-size: 1.1rem;
+    color: var(--bs-white);
+    z-index: 10;
+    transition: bottom .4s, transform .4s, background-color .4s;
+}
+
+.scroll_up:hover {
+    transform: translateY(-.35rem);
+    background-color: var(--bs-secondary);
+    color: var(--bs-white);
+}
+
+/* Show Scroll Up*/
+.show-scroll {
+    bottom: 4rem;
+}

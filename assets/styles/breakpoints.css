@@ -1,0 +1,144 @@
+/* ============ only min width | Omonjon ============ */
+@media (min-width: 768px) {
+    .modal .modal-body .border-bottom-dashed {
+        border-bottom: none !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .header .container-self {
+        max-width: 1440px !important;
+    }
+}
+
+/* ============ only max width | Omonjon ============ */
+@media (max-width: 1399px) {
+    .header .swiper-button-prev {
+        left: 92.7% !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .rounded-circle-mb {
+        border-radius: 50% !important;
+        padding: 10px !important;
+    }
+
+    .header .swiper-button-prev {
+        left: 91% !important;
+    }
+
+    .how-work .how-work-line {
+        width: 150px;
+        right: -75px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header .swiper-button-prev {
+        left: 88% !important;
+    }
+
+    .car-num {
+        width: 160px;
+    }
+
+    .tech-pas-num {
+        width: 145px;
+    }
+
+    .ins-type {
+        width: 170px;
+    }
+}
+
+@media (max-width: 767px) {
+    .modal .modal-body .border-end-dashed {
+        border-right: none;
+    }
+
+    .scroll_up {
+        right: 1rem;
+    }
+
+    .header .swiper-button-prev {
+        left: 84% !important;
+    }
+
+    .offcanvas.offcanvas-top {
+        height: 250px;
+    }
+
+    .w-100Mb {
+        width: 100%;
+    }
+
+    .car-num {
+        width: 40%;
+    }
+
+    .tech-pas {
+        width: 16%;
+    }
+
+    .tech-pas-num {
+        width: 40%;
+    }
+
+    .ins-type {
+        width: 67%;
+    }
+
+    .calc-btn {
+        width: 30%;
+    }
+
+    .calc-btn button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .offcanvas.offcanvas-top {
+        height: 350px;
+    }
+
+    .btn-footer {
+        border-radius: 50% !important;
+        padding: 14px !important;
+    }
+
+    .car-num {
+        width: 100%;
+    }
+
+    .tech-pas {
+        width: 30%;
+    }
+
+    .tech-pas-num {
+        width: 65%;
+    }
+
+    .ins-type {
+        width: 60%;
+    }
+
+    .calc-btn {
+        width: 35%;
+    }
+
+    .calc-btn button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 390px) {
+    .header .nav-item-top.dropdown {
+        display: none;
+    }
+
+    .offcanvas .nav-item-top.dropdown {
+        display: block !important;
+    }
+}
