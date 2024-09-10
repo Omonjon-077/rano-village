@@ -1,13 +1,11 @@
 /* ============ only min width | Omonjon ============ */
 @media (min-width: 768px) {
-    .modal .modal-body .border-bottom-dashed {
-        border-bottom: none !important;
-    }
+
 }
 
-@media (min-width: 1400px) {
-    .header .container-self {
-        max-width: 1440px !important;
+@media (min-width: 992px) {
+    .about-section {
+        height: 668px;
     }
 }
 
@@ -35,20 +33,8 @@
 }
 
 @media (max-width: 991px) {
-    .header .swiper-button-prev {
-        left: 88% !important;
-    }
-
-    .car-num {
-        width: 160px;
-    }
-
-    .tech-pas-num {
-        width: 145px;
-    }
-
-    .ins-type {
-        width: 170px;
+    .about-section {
+        min-height: 668px;
     }
 }
 
@@ -70,7 +56,7 @@
     }
 
     .w-100Mb {
-        width: 100%;
+        width: 100% !important;
     }
 
     .car-num {
@@ -99,46 +85,34 @@
 }
 
 @media (max-width: 575px) {
-    .offcanvas.offcanvas-top {
-        height: 350px;
+    .about-section {
+        height: 760px;
+        .about-img-pattern {
+            max-width: 272px;
+            width: 100%;
+            height: 339px;
+            left: -17px;
+            top: -17px;
+            right: initial;
+        }
+        .about-img-rectangle {
+            max-width: 272px;
+            width: 100%;
+        }
+        .about-img-circle {
+            right: -45px;
+            top: 120px;
+            left: initial;
+            max-width: 105px;
+        }
     }
-
-    .btn-footer {
-        border-radius: 50% !important;
-        padding: 14px !important;
-    }
-
-    .car-num {
-        width: 100%;
-    }
-
-    .tech-pas {
-        width: 30%;
-    }
-
-    .tech-pas-num {
-        width: 65%;
-    }
-
-    .ins-type {
-        width: 60%;
-    }
-
-    .calc-btn {
-        width: 35%;
-    }
-
-    .calc-btn button {
-        width: 100%;
+    .target-section {
+        margin-top: 125px;
     }
 }
 
-@media (max-width: 390px) {
-    .header .nav-item-top.dropdown {
-        display: none;
-    }
-
-    .offcanvas .nav-item-top.dropdown {
-        display: block !important;
+@media (max-width: 450px) {
+    .target-section {
+        margin-top: 160px;
     }
 }

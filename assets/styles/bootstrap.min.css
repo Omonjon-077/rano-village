@@ -839,7 +839,7 @@ progress {
 }
 
 .row {
-    --bs-gutter-x: .75rem;
+    --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
@@ -3493,7 +3493,7 @@ fieldset:disabled .btn {
     --bs-btn-bg: #040C02;
     --bs-btn-border-color: #040C02;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #DC3070;
+    --bs-btn-hover-bg: #040C02;
     --bs-btn-hover-border-color: #040C02;
     --bs-btn-focus-shadow-rgb: 130, 138, 145;
     --bs-btn-active-color: #fff;
