@@ -9,6 +9,10 @@
     }
 }
 
+@media (min-width: 1200px) {
+
+}
+
 /* ============ only max width | Omonjon ============ */
 @media (max-width: 1399px) {
     .header .swiper-button-prev {
@@ -17,18 +21,11 @@
 }
 
 @media (max-width: 1199px) {
-    .rounded-circle-mb {
-        border-radius: 50% !important;
-        padding: 10px !important;
-    }
-
-    .header .swiper-button-prev {
-        left: 91% !important;
-    }
-
-    .how-work .how-work-line {
-        width: 150px;
-        right: -75px;
+    .suits-section {
+        .suits-pattern {
+            max-width: 450px;
+            height: 350px;
+        }
     }
 }
 
@@ -36,57 +33,22 @@
     .about-section {
         min-height: 668px;
     }
+    .suits-section {
+        .suits-pattern {
+            max-width: 494px;
+            height: 366px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
-    .modal .modal-body .border-end-dashed {
-        border-right: none;
-    }
 
-    .scroll_up {
-        right: 1rem;
-    }
-
-    .header .swiper-button-prev {
-        left: 84% !important;
-    }
-
-    .offcanvas.offcanvas-top {
-        height: 250px;
-    }
-
-    .w-100Mb {
-        width: 100% !important;
-    }
-
-    .car-num {
-        width: 40%;
-    }
-
-    .tech-pas {
-        width: 16%;
-    }
-
-    .tech-pas-num {
-        width: 40%;
-    }
-
-    .ins-type {
-        width: 67%;
-    }
-
-    .calc-btn {
-        width: 30%;
-    }
-
-    .calc-btn button {
-        width: 100%;
-    }
 }
 
 @media (max-width: 575px) {
     .about-section {
         height: 760px;
+
         .about-img-pattern {
             max-width: 272px;
             width: 100%;
@@ -95,10 +57,12 @@
             top: -17px;
             right: initial;
         }
+
         .about-img-rectangle {
             max-width: 272px;
             width: 100%;
         }
+
         .about-img-circle {
             right: -45px;
             top: 120px;
@@ -106,13 +70,36 @@
             max-width: 105px;
         }
     }
+
     .target-section {
         margin-top: 125px;
+    }
+    .suits-section {
+        .suits-img {
+            max-width: 335px;
+        }
+        .suits-pattern {
+            max-width: 315px;
+            height: 227px;
+            left: 34px;
+            top: 16px;
+        }
     }
 }
 
 @media (max-width: 450px) {
     .target-section {
         margin-top: 160px;
+    }
+    .suits-section {
+        .suits-img {
+            max-width: 325px;
+        }
+        .suits-pattern {
+            max-width: 306px;
+            height: 227px;
+            left: 36px;
+            top: 18px;
+        }
     }
 }
