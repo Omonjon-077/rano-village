@@ -4,13 +4,16 @@
 }
 
 @media (min-width: 992px) {
-    .about-section {
-        height: 668px;
-    }
+
 }
 
 @media (min-width: 1200px) {
-
+    .photos-section {
+        .photos-num {
+            top: 105px;
+            left: 88px;
+        }
+    }
 }
 
 /* ============ only max width | Omonjon ============ */
@@ -27,28 +30,43 @@
             height: 350px;
         }
     }
+    .photos-section {
+        .photos-num {
+            top: 80px;
+            left: 70px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
-    .about-section {
-        min-height: 668px;
-    }
     .suits-section {
         .suits-pattern {
             max-width: 494px;
             height: 366px;
         }
     }
+    .photos-section {
+        .photos-num {
+            top: 160px;
+            left: 120px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
-
+    .photos-section {
+        .photos-num {
+            top: 250px;
+            left: 215px;
+        }
+    }
+    .w-100Mb {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 575px) {
     .about-section {
-        height: 760px;
-
         .about-img-pattern {
             max-width: 272px;
             width: 100%;
@@ -69,10 +87,9 @@
             left: initial;
             max-width: 105px;
         }
-    }
-
-    .target-section {
-        margin-top: 125px;
+        .half-bg {
+            height: 800px;
+        }
     }
     .suits-section {
         .suits-img {
@@ -85,12 +102,30 @@
             top: 16px;
         }
     }
+
+    .scroll_up {
+        right: 1.5rem;
+    }
+    .photos-section {
+        .photos-num {
+            top: 45%;
+            left: 45%;
+        }
+    }
+    .contact-section {
+        .half-bg {
+            height: 871px;
+        }
+        .location-pattern {
+            height: 343px;
+        }
+        iframe {
+            height: 364px;
+        }
+    }
 }
 
 @media (max-width: 450px) {
-    .target-section {
-        margin-top: 160px;
-    }
     .suits-section {
         .suits-img {
             max-width: 325px;

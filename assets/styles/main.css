@@ -228,8 +228,11 @@ a {
 
 /*=============== ABOUT SECTION | Omonjon ===============*/
 .about-section {
-    background-color: #E9F3E6;
-
+    padding: 100px 0;
+    .half-bg {
+        height: 650px;
+        background-color: #E9F3E6;
+    }
     .about-img-pattern {
         top: -30px;
         right: -30px;
@@ -267,10 +270,12 @@ a {
 /*=============== SUITS SECTION | Omonjon ===============*/
 .suits-section {
     padding: 100px 0;
+
     .suits-img {
         max-width: 524px;
         width: 100%;
     }
+
     .suits-pattern {
         max-width: 494px;
         width: 100%;
@@ -279,6 +284,40 @@ a {
         border: 1px solid var(--bs-primary);
         left: 58px;
     }
+}
+
+/*=============== PHOTOS SECTION | Omonjon ===============*/
+.photos-section {
+    background-color: #212C2A;
+    padding: 100px 0;
+
+    .photos-num {
+        top: 105px;
+        left: 88px;
+    }
+}
+
+/*=============== CONTACT SECTION | Omonjon ===============*/
+.contact-section {
+    padding: 100px 0;
+    .location-pattern {
+        height: 494px;
+    }
+    .half-bg {
+        background-color: #E9F3E6;
+        height: 739px;
+    }
+}
+
+/*=============== CONTACT FORM | Omonjon ===============*/
+.contact-form {
+    padding-bottom: 100px;
+}
+
+/*=============== CONTACT FORM | Omonjon ===============*/
+.footer {
+    padding: 100px 0;
+    background-color: #212C2A;
 }
 
 /*=============== SCROLL BAR | Omonjon ===============*/
