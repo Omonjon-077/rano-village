@@ -1,6 +1,8 @@
 /* ============ only min width | Omonjon ============ */
 @media (min-width: 768px) {
-
+    .border-md-none {
+        border: none !important;
+    }
 }
 
 @media (min-width: 992px) {
@@ -18,9 +20,7 @@
 
 /* ============ only max width | Omonjon ============ */
 @media (max-width: 1399px) {
-    .header .swiper-button-prev {
-        left: 92.7% !important;
-    }
+
 }
 
 @media (max-width: 1199px) {
@@ -30,6 +30,7 @@
             height: 350px;
         }
     }
+
     .photos-section {
         .photos-num {
             top: 80px;
@@ -45,6 +46,7 @@
             height: 366px;
         }
     }
+
     .photos-section {
         .photos-num {
             top: 160px;
@@ -60,6 +62,7 @@
             left: 215px;
         }
     }
+
     .w-100Mb {
         width: 100% !important;
     }
@@ -87,14 +90,45 @@
             left: initial;
             max-width: 105px;
         }
+
         .half-bg {
             height: 800px;
         }
     }
+
+    .about-section-home {
+        padding: 50px 0;
+        .about-img-pattern {
+            max-width: 272px;
+            width: 100%;
+            height: 339px;
+            left: -17px;
+            top: -17px;
+            right: initial;
+        }
+
+        .about-img-rectangle {
+            max-width: 272px;
+            width: 100%;
+        }
+
+        .about-img-circle {
+            right: -45px;
+            top: 120px;
+            left: initial;
+            max-width: 105px;
+        }
+
+        .half-bg {
+            height: 870px;
+        }
+    }
+
     .suits-section {
         .suits-img {
             max-width: 335px;
         }
+
         .suits-pattern {
             max-width: 315px;
             height: 227px;
@@ -106,19 +140,23 @@
     .scroll_up {
         right: 1.5rem;
     }
+
     .photos-section {
         .photos-num {
             top: 45%;
             left: 45%;
         }
     }
+
     .contact-section {
         .half-bg {
             height: 871px;
         }
+
         .location-pattern {
             height: 343px;
         }
+
         iframe {
             height: 364px;
         }
@@ -130,11 +168,16 @@
         .suits-img {
             max-width: 325px;
         }
+
         .suits-pattern {
             max-width: 306px;
             height: 227px;
             left: 36px;
             top: 18px;
         }
+    }
+
+    .header-home {
+        height: 700px;
     }
 }

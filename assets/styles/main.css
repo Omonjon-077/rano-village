@@ -134,6 +134,12 @@ button[aria-expanded^="true"] i {
     width: max-content !important;
 }
 
+.hover-bg-white:hover {
+    background-color: var(--bs-white);
+    box-shadow: 0 20px 70px 0 #1B351417;
+    border-color: transparent;
+}
+
 .outline-none {
     outline: none;
 }
@@ -149,7 +155,7 @@ button {
 }
 
 .border-none {
-    border: none;
+    border: none !important;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -222,17 +228,26 @@ a {
 }
 
 .header {
-    background: url(../images/intro-bg.png) no-repeat center/cover;
-    min-height: 544px;
+    height: 570px;
+}
+
+.header-home {
+    height: 850px;
+
+    .header-link-box {
+        width: 282px;
+    }
 }
 
 /*=============== ABOUT SECTION | Omonjon ===============*/
 .about-section {
     padding: 100px 0;
+
     .half-bg {
         height: 650px;
         background-color: #E9F3E6;
     }
+
     .about-img-pattern {
         top: -30px;
         right: -30px;
@@ -251,6 +266,36 @@ a {
     .about-img-circle {
         top: 125px;
         left: -90px;
+        width: 177px;
+    }
+}
+
+.about-section-home {
+    padding: 100px 0;
+
+    .half-bg {
+        height: 600px;
+        background-color: #E9F3E6;
+    }
+
+    .about-img-pattern {
+        top: -30px;
+        left: -30px;
+        width: 454px;
+        z-index: 9;
+        height: 580px;
+        background-color: transparent;
+        border: 1px solid var(--bs-primary);
+    }
+
+    .about-img-rectangle {
+        max-width: 456px;
+        width: 100%;
+    }
+
+    .about-img-circle {
+        top: 125px;
+        right: -90px;
         width: 177px;
     }
 }
@@ -300,9 +345,11 @@ a {
 /*=============== CONTACT SECTION | Omonjon ===============*/
 .contact-section {
     padding: 100px 0;
+
     .location-pattern {
         height: 494px;
     }
+
     .half-bg {
         background-color: #E9F3E6;
         height: 739px;
