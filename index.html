@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
 
     <!--================ STYLE CSS | Omonjon ================-->
-    <link rel="stylesheet" href="assets/styles/main.css?v=0.3">
+    <link rel="stylesheet" href="assets/styles/main.css?v=0.4">
     <link rel="stylesheet" href="assets/styles/breakpoints.css?v=0.3">
 
     <title>RANO eco village</title>
@@ -519,28 +519,163 @@
                     </div>
                 </div>
             </div>
-            <div class="row row-gap-4">
-                <div class="col-lg-6 order-1 order-sm-0">
-                    <div class="position-relative d-flex justify-content-lg-start justify-content-sm-center justify-content-start ps-4 ps-sm-0">
-                        <div class="position-relative left-images mt-4 mt-lg-0">
-                            <img src="assets/images/our-num.png" alt=""
-                                 class="position-relative z-1 left-img-rectangle">
-                            <span class="left-img-pattern position-absolute z-0"></span>
-                            <img src="assets/images/our-num-circle.png"
-                                 class="position-absolute d-lg-none d-xl-block z-2 left-img-circle" alt=""
-                                 width="">
+            <ul class="nav nav-pills d-flex align-items-center justify-content-sm-start justify-content-center column-gap-4 mb-5"
+                id="pills-tab-second" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link p-4 rounded-0 bg-transparent position-relative p-0 active"
+                            id="pills-one-tab" data-bs-toggle="pill" data-bs-target="#pills-one"
+                            type="button" role="tab" aria-controls="pills-one" aria-selected="true">Одноместный номер
+                        <img src="assets/images/svg/green-active-line.svg" width="120" class="position-absolute" alt="">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link p-4 rounded-0 bg-transparent position-relative p-0" id="pills-second-tab"
+                            data-bs-toggle="pill"
+                            data-bs-target="#pills-second" type="button" role="tab" aria-controls="pills-second"
+                            aria-selected="false">Двухместный номер
+                        <img src="assets/images/svg/green-active-line.svg" width="120" class="position-absolute" alt="">
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent-second">
+                <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab"
+                     tabindex="0">
+                    <div class="row row-gap-4">
+                        <div class="col-lg-6">
+                            <div class="position-relative d-flex justify-content-lg-start justify-content-sm-center justify-content-start ps-4 ps-sm-0">
+                                <div class="position-relative left-images mt-4 mt-lg-0">
+                                    <img src="assets/images/our-num.png" alt=""
+                                         class="position-relative z-1 left-img-rectangle">
+                                    <span class="left-img-pattern position-absolute z-0"></span>
+                                    <img src="assets/images/our-num-circle.png"
+                                         class="position-absolute d-lg-none d-xl-block z-2 left-img-circle" alt=""
+                                         width="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex flex-column align-items-start justify-content-center h-100">
+                                <h3 class="text-white fw-semibold fs-4 mb-4">ОДНОМЕСТНЫЙ НОМЕР</h3>
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <h6 class="d-flex align-items-center text-white fw-normal fs-5">
+                                        <img src="assets/images/svg/our-num-1.svg" class="me-3" alt="">15 м<sup>2</sup>
+                                    </h6>
+                                    <img src="assets/images/svg/vertical-line.svg" class="mx-4" height="38" alt="">
+                                    <h6 class="d-flex align-items-center text-white fw-normal fs-5">
+                                        <img src="assets/images/svg/our-num-2.svg" class="me-3" alt="">1
+                                    </h6>
+                                </div>
+                                <div class="fw-light fs-6 text-white mt-4">
+                                    Уютный одноместный номер порадует вас своим комфортом. В распоряжении гостя
+                                    кондиционер,
+                                    собственный санузел с душевой кабиной и полным комплектом туалетно-косметических
+                                    принадлежностей. В номере есть всё необходимое для комфортного отдыха: вода, фен,
+                                    комплект
+                                    полотенец, банный халат и тапочки. Прекрасный вид на парк подарит незабываемые
+                                    эмоции во
+                                    время пребывания.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="assets/images/our-num-2.png" class="w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="assets/images/our-num-3.png" class="w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="assets/images/our-num-4.png" class="w-100 h-100" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start justify-content-center h-100">
-                        <h3 class="text-white fw-semibold fs-4 mb-4">ОДНОМЕСТНЫЙ НОМЕР</h3>
-                        <div class="fw-light fs-6 text-white">
-                            Уютный одноместный номер порадует вас своим комфортом. В распоряжении гостя кондиционер,
-                            собственный санузел с душевой кабиной и полным комплектом туалетно-косметических
-                            принадлежностей. В номере есть всё необходимое для комфортного отдыха: вода, фен, комплект
-                            полотенец, банный халат и тапочки. Прекрасный вид на парк подарит незабываемые эмоции во
-                            время пребывания.
+                <div class="tab-pane fade" id="pills-second" role="tabpanel" aria-labelledby="pills-second-tab"
+                     tabindex="0">
+                    <div class="row row-gap-4">
+                        <div class="col-lg-6">
+                            <div class="position-relative d-flex justify-content-lg-start justify-content-sm-center justify-content-start ps-4 ps-sm-0">
+                                <div class="position-relative left-images mt-4 mt-lg-0">
+                                    <img src="assets/images/our-num.png" alt=""
+                                         class="position-relative z-1 left-img-rectangle">
+                                    <span class="left-img-pattern position-absolute z-0"></span>
+                                    <img src="assets/images/our-num-circle.png"
+                                         class="position-absolute d-lg-none d-xl-block z-2 left-img-circle" alt=""
+                                         width="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex flex-column align-items-start justify-content-center h-100">
+                                <h3 class="text-white fw-semibold fs-4 mb-4">Двухместный номер</h3>
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <h6 class="d-flex align-items-center text-white fw-normal fs-5">
+                                        <img src="assets/images/svg/our-num-1.svg" class="me-3" alt="">15 м<sup>2</sup>
+                                    </h6>
+                                    <img src="assets/images/svg/vertical-line.svg" class="mx-4" height="38" alt="">
+                                    <h6 class="d-flex align-items-center text-white fw-normal fs-5">
+                                        <img src="assets/images/svg/our-num-2.svg" class="me-3" alt="">2
+                                    </h6>
+                                </div>
+                                <div class="fw-light fs-6 text-white mt-4">
+                                    Уютный одноместный номер порадует вас своим комфортом. В распоряжении гостя
+                                    кондиционер,
+                                    собственный санузел с душевой кабиной и полным комплектом туалетно-косметических
+                                    принадлежностей. В номере есть всё необходимое для комфортного отдыха: вода, фен,
+                                    комплект
+                                    полотенец, банный халат и тапочки. Прекрасный вид на парк подарит незабываемые
+                                    эмоции во
+                                    время пребывания.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="assets/images/our-num-2.png" class="w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="assets/images/our-num-3.png" class="w-100 h-100" alt="">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="assets/images/our-num-4.png" class="w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== PROMOTION | Omonjon ====================-->
+    <section class="promotion-section">
+        <div class="container">
+            <h4 class="text-primary d-flex align-content-md-start column-gap-2 fs-7">
+                <img src="./assets/images/svg/title-line.svg" class="me-1" alt="">Акции
+            </h4>
+            <h3 class="text-black fw-semibold display-5">Спецпредложения</h3>
+            <div class="row row-gap-4 mt-4 pt-2">
+                <div class="col-md-6">
+                    <div class="h-100 bg-white p-4">
+                        <div class="h-100 d-flex flex-column align-items-start justify-content-center p-2">
+                            <div class="d-flex align-items-center justify-content-center mb-3">
+                                <img class="w-100" src="assets/images/promotion-1.png" alt="">
+                            </div>
+                            <h6 class="fw-normal fs-5 text-secondary mb-3">Акция 2+1</h6>
+                            <div class="fs-6 fw-light mt-auto mb-3">
+                                Оставайтесь подольше! При заезде на два дня третий день дарим В ПОДАРОК!
+                            </div>
+                            <a href="#" class="btn btn-outline-primary px-4 py-2 mt-auto">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 bg-white p-4">
+                        <div class="h-100 d-flex flex-column align-items-start justify-content-center p-2">
+                            <div class="d-flex align-items-center justify-content-center mb-3">
+                                <img class="w-100" src="assets/images/promotion-2.png" alt="">
+                            </div>
+                            <h6 class="fw-normal fs-5 text-secondary mb-3">Приезжайте по оздоровительной программе и
+                                экономьте на процедурах</h6>
+                            <div class="fs-6 fw-light mt-auto mb-3">
+                                Экономия в 25% на SPA-процедурах при бронировании "Оздоровительной программы"!
+                            </div>
+                            <a href="#" class="btn btn-outline-primary px-4 py-2 mt-auto">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -549,7 +684,7 @@
     </section>
 
     <!--==================== SERVICES | Omonjon ====================-->
-    <section class="services-section">
+    <section class="services-section bg-white">
         <div class="container">
             <div class="row row-gap-4 mb-5 pb-sm-1">
                 <div class="col-lg-7">
@@ -630,6 +765,20 @@
                         <img src="./assets/images/services-9.png" class="w-100" alt="">
                         <h5 class="fw-normal fs-5 text-secondary my-2 py-1">Йога-медитации</h5>
                         <h4 class="fw-bold text-primary fs-4">от 1 100 000 сум</h4>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="d-flex flex-column align-items-start justify-content-center primary-border transition hover-bg-white w-100 h-100 p-4">
+                        <img src="./assets/images/services-10.png" class="w-100" alt="">
+                        <h5 class="fw-normal fs-5 text-secondary my-2 py-1">Прогулки на лошадях</h5>
+                        <h4 class="fw-bold text-primary fs-4">Бесплатно</h4>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="d-flex flex-column align-items-start justify-content-center primary-border transition hover-bg-white w-100 h-100 p-4">
+                        <img src="./assets/images/services-11.png" class="w-100" alt="">
+                        <h5 class="fw-normal fs-5 text-secondary my-2 py-1">Вечерние кинопросмотры</h5>
+                        <h4 class="fw-bold text-primary fs-4">Бесплатно</h4>
                     </div>
                 </div>
             </div>

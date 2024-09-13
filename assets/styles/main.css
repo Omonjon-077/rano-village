@@ -308,14 +308,17 @@ a {
 .program-section {
     background-color: #212C2A;
     padding: 100px 0;
+
     .nav-pills .nav-link.active {
         border-color: var(--bs-primary) !important;
         box-shadow: 0 20px 70px 0 #1B351417;
     }
+
     .program-img {
         max-width: 524px;
         width: 100%;
     }
+
     .program-pattern {
         max-width: 494px;
         width: 100%;
@@ -336,10 +339,34 @@ a {
     }
 }
 
-/*=============== SERVICES SECTION | Omonjon ===============*/
+/*=============== OUR NUMBER SECTION | Omonjon ===============*/
 .ourNumber-section {
     padding: 100px 0;
     background-color: #212C2A;
+
+    .nav-pills .nav-item .nav-link {
+        border-bottom: 2px solid #88898b !important;
+        color: #88898b;
+        img {
+            display: none;
+        }
+    }
+
+    .nav-pills .nav-link.active {
+        border-color: var(--bs-primary) !important;
+        color: white !important;
+        img {
+            display: block;
+            bottom: 16px;
+            left: 17%;
+        }
+    }
+}
+
+/*=============== PROMOTION SECTION | Omonjon ===============*/
+.promotion-section {
+    padding: 100px 0;
+    background-color: #E9F3E6;
 }
 
 /*=============== SERVICES SECTION | Omonjon ===============*/
