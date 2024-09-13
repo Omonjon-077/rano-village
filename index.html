@@ -113,10 +113,10 @@
                     <div class="position-relative d-flex justify-content-lg-start justify-content-sm-center justify-content-start ps-4 ps-sm-0">
                         <div class="position-relative about-images mt-4 mt-lg-0">
                             <img src="assets/images/about-img-3.png" alt=""
-                                 class="position-relative z-1 about-img-rectangle">
-                            <span class="about-img-pattern position-absolute z-0"></span>
+                                 class="position-relative z-1 left-img-rectangle">
+                            <span class="left-img-pattern position-absolute z-0"></span>
                             <img src="assets/images/about-img-circle-3.png"
-                                 class="position-absolute d-lg-none d-xl-block z-2 about-img-circle" alt=""
+                                 class="position-absolute d-lg-none d-xl-block z-2 left-img-circle" alt=""
                                  width="">
                         </div>
                     </div>
@@ -143,32 +143,356 @@
         </div>
     </section>
 
-    <!--==================== TARGET | Omonjon ====================-->
-    <section class="target-section mb-5">
+    <!--==================== PROGRAM | Omonjon ====================-->
+    <section class="program-section bg-transparent pt-sm-5 pt-4">
         <div class="container">
-            <div class="row row-gap-4">
-                <div class="col-xl-5 col-md-6">
-                    <div class="d-flex flex-column align-items-start justify-content-center">
-                        <h4 class="text-primary d-flex align-content-md-start column-gap-2 fs-7">
-                            <img src="./assets/images/svg/title-line.svg" class="me-1" alt="">Цель
-                        </h4>
-                        <h3 class="text-secondary fw-semibold display-5 mb-4 pb-2">Основные цели программы</h3>
+            <h4 class="text-primary d-flex align-content-md-start column-gap-2 fs-7">
+                <img src="./assets/images/svg/title-line.svg" class="me-1" alt="">ПРЕДЛОЖЕНИЯ
+            </h4>
+            <h3 class="text-black fw-semibold display-5 mb-4 pb-2">Наши программы</h3>
+        </div>
+        <div class="container d-none d-md-block">
+            <ul class="nav nav-pills mb-sm-5 mb-4" id="pills-tab" role="tablist">
+                <li class="row row-gap-4 w-100">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="nav-item h-100 w-100" role="presentation">
+                            <button class="nav-link fw-medium d-flex h-100 w-100 align-items-center rounded-0 justify-content-center text-start bg-white text-secondary primary-border p-4 active"
+                                    id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true"><img src="assets/images/svg/tab-btn-1.svg" class="me-2" alt=""
+                                                              width="70">Сезонная программа с правильным питанием
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="nav-item h-100 w-100" role="presentation">
+                            <button class="nav-link fw-medium d-flex h-100 w-100 align-items-center rounded-0 justify-content-center text-start bg-white text-secondary primary-border p-4"
+                                    id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile"
+                                    aria-selected="false"><img src="assets/images/svg/tab-btn-2.svg" class="me-2" alt=""
+                                                               width="70">Дневной заезд без ночевки
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="nav-item h-100 w-100" role="presentation">
+                            <button class="nav-link fw-medium d-flex h-100 w-100 align-items-center rounded-0 justify-content-center text-start bg-white text-secondary primary-border p-4"
+                                    id="pills-contact-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact"
+                                    aria-selected="false"><img src="assets/images/svg/tab-btn-3.svg" class="me-2" alt=""
+                                                               width="70">Оздоровительная программа
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="nav-item h-100 w-100" role="presentation">
+                            <button class="nav-link fw-medium d-flex h-100 w-100 align-items-center rounded-0 justify-content-center text-start bg-white text-secondary primary-border p-4"
+                                    id="pills-disabled-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-disabled" type="button" role="tab"
+                                    aria-controls="pills-disabled"
+                                    aria-selected="false"><img src="assets/images/svg/tab-btn-4.svg" class="me-2" alt=""
+                                                               width="70">Программа похудения
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                     tabindex="0">
+                    <div class="row row-gap-4 mb-5 pb-md-2">
+                        <div class="col-lg-6">
+                            <div class="d-flex flex-column align-items-start justify-content-center">
+                                <h5 class="text-secondary fs-4 fw-normal mb-4 pb-2">
+                                    Сезонная программа с правильным питанием 1
+                                </h5>
+                                <ul class="d-flex flex-column align-items-start fw-light ps-4 fs-6">
+                                    <li class="li-style-initial">Проживание в комфортном номере</li>
+                                    <li class="li-style-initial">Посещение летнего бассейна и spa-зоны</li>
+                                    <li class="li-style-initial">3-х разовое сбалансированное питание</li>
+                                    <li class="li-style-initial">Доступ ко всей инфраструктуре территории</li>
+                                    <li class="li-style-initial">Вечера у костра</li>
+                                    <li class="li-style-initial">Просмотр кинофильмов под открытым небом</li>
+                                    <li class="li-style-initial">Экскурсия по эко-ферме и эко-тропам с гидо</li>
+                                </ul>
+                                <h3 class="text-black fw-bold fs-2 my-4 py-2">от 1 100 000 сум</h3>
+                                <a href="#contact-form" class="btn btn-primary py-2 px-4">Оставить заявку</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center justify-content-lg-start justify-content-sm-center justify-content-start mt-auto">
+                                <div class="position-relative">
+                                    <img src="./assets/images/program-1.png" class="program-img z-0" alt="">
+                                    <span class="program-pattern position-absolute z-1"></span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-1 d-none d-xl-block"></div>
-                <div class="col-xl-6 col-md-6">
-                    <div class="d-flex flex-column justify-content-center align-items-center row-gap-3">
-                        <div class="d-flex w-100 align-items-center justify-content-center primary-border p-5">
-                            <img src="./assets/images/svg/target-1.svg" alt="" class="">
-                            <h4 class="fs-5 text-secondary fw-medium ms-4">Нормализация работы <br> организма</h4>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                     tabindex="0">
+                    <div class="row row-gap-4 mb-5 pb-md-2">
+                        <div class="col-lg-6">
+                            <div class="d-flex flex-column align-items-start justify-content-center">
+                                <h5 class="text-secondary fs-4 fw-normal mb-4 pb-2">
+                                    Сезонная программа с правильным питанием 2
+                                </h5>
+                                <ul class="d-flex flex-column align-items-start fw-light ps-4 fs-6">
+                                    <li class="li-style-initial">Проживание в комфортном номере</li>
+                                    <li class="li-style-initial">Посещение летнего бассейна и spa-зоны</li>
+                                    <li class="li-style-initial">3-х разовое сбалансированное питание</li>
+                                    <li class="li-style-initial">Доступ ко всей инфраструктуре территории</li>
+                                    <li class="li-style-initial">Вечера у костра</li>
+                                    <li class="li-style-initial">Просмотр кинофильмов под открытым небом</li>
+                                    <li class="li-style-initial">Экскурсия по эко-ферме и эко-тропам с гидо</li>
+                                </ul>
+                                <h3 class="text-black fw-bold fs-2 my-4 py-2">от 1 100 000 сум</h3>
+                                <a href="#contact-form" class="btn btn-primary py-2 px-4">Оставить заявку</a>
+                            </div>
                         </div>
-                        <div class="d-flex w-100 align-items-center justify-content-center primary-border p-5">
-                            <img src="./assets/images/svg/target-2.svg" alt="" class="">
-                            <h4 class="fs-5 text-secondary fw-medium ms-4">Уход за кожей и телом</h4>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center justify-content-lg-start justify-content-sm-center justify-content-start mt-auto">
+                                <div class="position-relative">
+                                    <img src="./assets/images/program-1.png" class="program-img z-0" alt="">
+                                    <span class="program-pattern position-absolute z-1"></span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="d-flex w-100 align-items-center justify-content-center primary-border p-5">
-                            <img src="./assets/images/svg/target-1.svg" alt="" class="">
-                            <h4 class="fs-5 text-secondary fw-medium ms-4">Укрепление иммунитета</h4>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                     tabindex="0">
+                    <div class="row row-gap-4 mb-5 pb-md-2">
+                        <div class="col-lg-6">
+                            <div class="d-flex flex-column align-items-start justify-content-center">
+                                <h5 class="text-secondary fs-4 fw-normal mb-4 pb-2">
+                                    Сезонная программа с правильным питанием 3
+                                </h5>
+                                <ul class="d-flex flex-column align-items-start fw-light ps-4 fs-6">
+                                    <li class="li-style-initial">Проживание в комфортном номере</li>
+                                    <li class="li-style-initial">Посещение летнего бассейна и spa-зоны</li>
+                                    <li class="li-style-initial">3-х разовое сбалансированное питание</li>
+                                    <li class="li-style-initial">Доступ ко всей инфраструктуре территории</li>
+                                    <li class="li-style-initial">Вечера у костра</li>
+                                    <li class="li-style-initial">Просмотр кинофильмов под открытым небом</li>
+                                    <li class="li-style-initial">Экскурсия по эко-ферме и эко-тропам с гидо</li>
+                                </ul>
+                                <h3 class="text-black fw-bold fs-2 my-4 py-2">от 1 100 000 сум</h3>
+                                <a href="#contact-form" class="btn btn-primary py-2 px-4">Оставить заявку</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center justify-content-lg-start justify-content-sm-center justify-content-start mt-auto">
+                                <div class="position-relative">
+                                    <img src="./assets/images/program-1.png" class="program-img z-0" alt="">
+                                    <span class="program-pattern position-absolute z-1"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+                     tabindex="0">
+                    <div class="row row-gap-4 mb-5 pb-md-2">
+                        <div class="col-lg-6">
+                            <div class="d-flex flex-column align-items-start justify-content-center">
+                                <h5 class="text-secondary fs-4 fw-normal mb-4 pb-2">
+                                    Сезонная программа с правильным питанием 4
+                                </h5>
+                                <ul class="d-flex flex-column align-items-start fw-light ps-4 fs-6">
+                                    <li class="li-style-initial">Проживание в комфортном номере</li>
+                                    <li class="li-style-initial">Посещение летнего бассейна и spa-зоны</li>
+                                    <li class="li-style-initial">3-х разовое сбалансированное питание</li>
+                                    <li class="li-style-initial">Доступ ко всей инфраструктуре территории</li>
+                                    <li class="li-style-initial">Вечера у костра</li>
+                                    <li class="li-style-initial">Просмотр кинофильмов под открытым небом</li>
+                                    <li class="li-style-initial">Экскурсия по эко-ферме и эко-тропам с гидо</li>
+                                </ul>
+                                <h3 class="text-black fw-bold fs-2 my-4 py-2">от 1 100 000 сум</h3>
+                                <a href="#contact-form" class="btn btn-primary py-2 px-4">Оставить заявку</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center justify-content-lg-start justify-content-sm-center justify-content-start mt-auto">
+                                <div class="position-relative">
+                                    <img src="./assets/images/program-1.png" class="program-img z-0" alt="">
+                                    <span class="program-pattern position-absolute z-1"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-md-none">
+            <div class="accordion d-flex flex-column row-gap-4" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item border-0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button z-0 fw-medium d-flex h-100 w-100 align-items-center rounded-0 justify-content-center text-start bg-white text-secondary primary-border p-4"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                                aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <img src="assets/images/svg/tab-btn-1.svg" class="me-2" alt=""
+                                 width="70">Сезонная программа с правильным питанием
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body p-0 pt-4">
+                            <div class="row row-gap-4 mb-5 pb-md-2">
+                                <div class="col-lg-6">
+                                    <div class="d-flex flex-column align-items-start justify-content-center">
+                                        <h5 class="text-secondary fs-4 fw-normal mb-4 pb-2">
+                                            Сезонная программа с правильным питанием 1
+                                        </h5>
+                                        <ul class="d-flex flex-column align-items-start fw-light ps-4 fs-6">
+                                            <li class="li-style-initial">Проживание в комфортном номере</li>
+                                            <li class="li-style-initial">Посещение летнего бассейна и spa-зоны</li>
+                                            <li class="li-style-initial">3-х разовое сбалансированное питание</li>
+                                            <li class="li-style-initial">Доступ ко всей инфраструктуре территории</li>
+                                            <li class="li-style-initial">Вечера у костра</li>
+                                            <li class="li-style-initial">Просмотр кинофильмов под открытым небом</li>
+                                            <li class="li-style-initial">Экскурсия по эко-ферме и эко-тропам с гидо</li>
+                                        </ul>
+                                        <h3 class="text-black fw-bold fs-2 my-4 py-2">от 1 100 000 сум</h3>
+                                        <a href="#contact-form" class="btn btn-primary py-2 px-4">Оставить заявку</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center justify-content-lg-start justify-content-sm-center justify-content-start mt-auto">
+                                        <div class="position-relative">
+                                            <img src="./assets/images/program-1.png" class="program-img z-0" alt="">
+                                            <span class="program-pattern position-absolute z-1"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button z-0 fw-medium d-flex h-100 w-100 align-items-center rounded-0 justify-content-center text-start bg-white text-secondary primary-border p-4 collapsed"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <img src="assets/images/svg/tab-btn-2.svg" class="me-2" alt=""
+                                 width="70">Дневной заезд без ночевки
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body p-0 pt-4">
+                            <div class="row row-gap-4 mb-5 pb-md-2">
+                                <div class="col-lg-6">
+                                    <div class="d-flex flex-column align-items-start justify-content-center">
+                                        <h5 class="text-secondary fs-4 fw-normal mb-4 pb-2">
+                                            Сезонная программа с правильным питанием 2
+                                        </h5>
+                                        <ul class="d-flex flex-column align-items-start fw-light ps-4 fs-6">
+                                            <li class="li-style-initial">Проживание в комфортном номере</li>
+                                            <li class="li-style-initial">Посещение летнего бассейна и spa-зоны</li>
+                                            <li class="li-style-initial">3-х разовое сбалансированное питание</li>
+                                            <li class="li-style-initial">Доступ ко всей инфраструктуре территории</li>
+                                            <li class="li-style-initial">Вечера у костра</li>
+                                            <li class="li-style-initial">Просмотр кинофильмов под открытым небом</li>
+                                            <li class="li-style-initial">Экскурсия по эко-ферме и эко-тропам с гидо</li>
+                                        </ul>
+                                        <h3 class="text-black fw-bold fs-2 my-4 py-2">от 1 100 000 сум</h3>
+                                        <a href="#contact-form" class="btn btn-primary py-2 px-4">Оставить заявку</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center justify-content-lg-start justify-content-sm-center justify-content-start mt-auto">
+                                        <div class="position-relative">
+                                            <img src="./assets/images/program-1.png" class="program-img z-0" alt="">
+                                            <span class="program-pattern position-absolute z-1"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button z-0 fw-medium d-flex h-100 w-100 align-items-center rounded-0 justify-content-center text-start bg-white text-secondary primary-border p-4 collapsed"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <img src="assets/images/svg/tab-btn-3.svg" class="me-2" alt=""
+                                 width="70">Оздоровительная программа
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body p-0 pt-4">
+                            <div class="row row-gap-4 mb-5 pb-md-2">
+                                <div class="col-lg-6">
+                                    <div class="d-flex flex-column align-items-start justify-content-center">
+                                        <h5 class="text-secondary fs-4 fw-normal mb-4 pb-2">
+                                            Сезонная программа с правильным питанием 3
+                                        </h5>
+                                        <ul class="d-flex flex-column align-items-start fw-light ps-4 fs-6">
+                                            <li class="li-style-initial">Проживание в комфортном номере</li>
+                                            <li class="li-style-initial">Посещение летнего бассейна и spa-зоны</li>
+                                            <li class="li-style-initial">3-х разовое сбалансированное питание</li>
+                                            <li class="li-style-initial">Доступ ко всей инфраструктуре территории</li>
+                                            <li class="li-style-initial">Вечера у костра</li>
+                                            <li class="li-style-initial">Просмотр кинофильмов под открытым небом</li>
+                                            <li class="li-style-initial">Экскурсия по эко-ферме и эко-тропам с гидо</li>
+                                        </ul>
+                                        <h3 class="text-black fw-bold fs-2 my-4 py-2">от 1 100 000 сум</h3>
+                                        <a href="#contact-form" class="btn btn-primary py-2 px-4">Оставить заявку</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center justify-content-lg-start justify-content-sm-center justify-content-start mt-auto">
+                                        <div class="position-relative">
+                                            <img src="./assets/images/program-1.png" class="program-img z-0" alt="">
+                                            <span class="program-pattern position-absolute z-1"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button z-0 fw-medium d-flex h-100 w-100 align-items-center rounded-0 justify-content-center text-start bg-white text-secondary primary-border p-4 collapsed"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                            <img src="assets/images/svg/tab-btn-4.svg" class="me-2" alt=""
+                                 width="70">Программа похудения
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                        <div class="accordion-body p-0 pt-4">
+                            <div class="row row-gap-4 mb-5 pb-md-2">
+                                <div class="col-lg-6">
+                                    <div class="d-flex flex-column align-items-start justify-content-center">
+                                        <h5 class="text-secondary fs-4 fw-normal mb-4 pb-2">
+                                            Сезонная программа с правильным питанием 4
+                                        </h5>
+                                        <ul class="d-flex flex-column align-items-start fw-light ps-4 fs-6">
+                                            <li class="li-style-initial">Проживание в комфортном номере</li>
+                                            <li class="li-style-initial">Посещение летнего бассейна и spa-зоны</li>
+                                            <li class="li-style-initial">3-х разовое сбалансированное питание</li>
+                                            <li class="li-style-initial">Доступ ко всей инфраструктуре территории</li>
+                                            <li class="li-style-initial">Вечера у костра</li>
+                                            <li class="li-style-initial">Просмотр кинофильмов под открытым небом</li>
+                                            <li class="li-style-initial">Экскурсия по эко-ферме и эко-тропам с гидо</li>
+                                        </ul>
+                                        <h3 class="text-black fw-bold fs-2 my-4 py-2">от 1 100 000 сум</h3>
+                                        <a href="#contact-form" class="btn btn-primary py-2 px-4">Оставить заявку</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center justify-content-lg-start justify-content-sm-center justify-content-start mt-auto">
+                                        <div class="position-relative">
+                                            <img src="./assets/images/program-1.png" class="program-img z-0" alt="">
+                                            <span class="program-pattern position-absolute z-1"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -176,86 +500,48 @@
         </div>
     </section>
 
-    <!--==================== PROGRAM | Omonjon ====================-->
-    <section class="program-section">
+    <!--==================== OUR NUMBER | Omonjon ====================-->
+    <section class="ourNumber-section">
         <div class="container">
-            <div class="row row-gap-4">
-                <div class="col-xl-4 col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
+            <div class="row row-gap-4 mb-5 pb-sm-1">
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column align-items-start justify-content-center h-100">
                         <h4 class="text-primary d-flex align-content-md-start column-gap-2 fs-7">
-                            <img src="./assets/images/svg/title-line.svg" class="me-1" alt="">Программа
+                            <img src="./assets/images/svg/title-line.svg" class="me-1" alt="">Проживание
                         </h4>
-                        <h3 class="text-white fw-semibold display-5 mb-4 pb-2">Что включено в стоимость</h3>
+                        <h3 class="text-white fw-semibold display-5">Наши номера</h3>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="d-flex flex-column align-items-start justify-content-center w-100 h-100 p-sm-5 p-4 primary-border">
-                        <img src="./assets/images/svg/program-1.svg" alt="" width="70">
-                        <h4 class="text-white fw-medium fs-6 mt-4">Проживание в комфортном номере</h4>
+                <div class="col-lg-6">
+                    <div class="fw-light text-white fs-6">
+                        Комфортабельная гостиница располагает 24 номерами общей вместимостью до 42 персон. Каждый номер
+                        полностью оборудован кондиционером, личным санузлом и всеми удобствами для Вашего комфорта.
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="d-flex flex-column align-items-start justify-content-center w-100 h-100 p-sm-5 p-4 primary-border">
-                        <img src="./assets/images/svg/program-2.svg" alt="" width="70">
-                        <h4 class="text-white fw-medium fs-6 mt-4">Трехразовое сбалансированное питание</h4>
+            </div>
+            <div class="row row-gap-4">
+                <div class="col-lg-6 order-1 order-sm-0">
+                    <div class="position-relative d-flex justify-content-lg-start justify-content-sm-center justify-content-start ps-4 ps-sm-0">
+                        <div class="position-relative left-images mt-4 mt-lg-0">
+                            <img src="assets/images/our-num.png" alt=""
+                                 class="position-relative z-1 left-img-rectangle">
+                            <span class="left-img-pattern position-absolute z-0"></span>
+                            <img src="assets/images/our-num-circle.png"
+                                 class="position-absolute d-lg-none d-xl-block z-2 left-img-circle" alt=""
+                                 width="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="d-flex flex-column align-items-start justify-content-center w-100 h-100 p-sm-5 p-4 primary-border">
-                        <img src="./assets/images/svg/program-3.svg" alt="" width="70">
-                        <h4 class="text-white fw-medium fs-6 mt-4">Кедровая бочка</h4>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="d-flex flex-column align-items-start justify-content-center w-100 h-100 p-sm-5 p-4 primary-border">
-                        <img src="./assets/images/svg/program-4.svg" alt="" width="70">
-                        <h4 class="text-white fw-medium fs-6 mt-4">Фитованна для ног</h4>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="d-flex flex-column align-items-start justify-content-center w-100 h-100 p-sm-5 p-4 primary-border">
-                        <img src="./assets/images/svg/program-5.svg" alt="" width="70">
-                        <h4 class="text-white fw-medium fs-6 mt-4">Рапановая/скипидаровая ванна</h4>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="d-flex flex-column align-items-start justify-content-center w-100 h-100 p-sm-5 p-4 primary-border">
-                        <img src="./assets/images/svg/program-6.svg" alt="" width="70">
-                        <h4 class="text-white fw-medium fs-6 mt-4">30-минутный баллийский массаж (зона на выбор)</h4>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="d-flex flex-column align-items-start justify-content-center w-100 h-100 p-sm-5 p-4 primary-border">
-                        <img src="./assets/images/svg/program-7.svg" alt="" width="70">
-                        <h4 class="text-white fw-medium fs-6 mt-4">Экскурсия по эко-ферме и эко-тропам с гидом</h4>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="d-flex flex-column align-items-start justify-content-center w-100 h-100 p-sm-5 p-4 primary-border">
-                        <img src="./assets/images/svg/program-8.svg" alt="" width="70">
-                        <h4 class="text-white fw-medium fs-6 mt-4">Просмотр кинофильмов под открытым небом</h4>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="d-flex flex-column align-items-start justify-content-center w-100 h-100 p-sm-5 p-4 primary-border">
-                        <img src="./assets/images/svg/program-9.svg" alt="" width="70">
-                        <h4 class="text-white fw-medium fs-6 mt-4">Вечера у костра</h4>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="d-flex flex-column align-items-start justify-content-center w-100 h-100 p-sm-5 p-4 primary-border">
-                        <img src="./assets/images/svg/program-10.svg" alt="" width="70">
-                        <h4 class="text-white fw-medium fs-6 mt-4">Доступ ко всей инфраструктуре на территории</h4>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6">
-                    <div class="d-flex flex-column align-items-start bg-primary w-100 h-100 p-sm-5 p-4">
-                        <h4 class="text-white fw-bold fs-4">
-                            Остались вопросы?
-                        </h4>
-                        <h3 class="text-white fw-normal fs-6 my-4">Оставьте заявку, наши специалисты свяжутся с
-                            Вами</h3>
-                        <a href="#contact-form" class="btn btn-secondary py-2 px-4">Оставить заявку</a>
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column align-items-start justify-content-center h-100">
+                        <h3 class="text-white fw-semibold fs-4 mb-4">ОДНОМЕСТНЫЙ НОМЕР</h3>
+                        <div class="fw-light fs-6 text-white">
+                            Уютный одноместный номер порадует вас своим комфортом. В распоряжении гостя кондиционер,
+                            собственный санузел с душевой кабиной и полным комплектом туалетно-косметических
+                            принадлежностей. В номере есть всё необходимое для комфортного отдыха: вода, фен, комплект
+                            полотенец, банный халат и тапочки. Прекрасный вид на парк подарит незабываемые эмоции во
+                            время пребывания.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -265,14 +551,14 @@
     <!--==================== SERVICES | Omonjon ====================-->
     <section class="services-section">
         <div class="container">
-            <div class="row row-gap-4 mb-5 pb-sm-2">
+            <div class="row row-gap-4 mb-5 pb-sm-1">
                 <div class="col-lg-7">
-                    <div class="d-flex flex-column align-items-start justify-content-center">
+                    <div class="d-flex flex-column align-items-start justify-content-center h-100">
                         <h4 class="text-primary d-flex align-content-md-start column-gap-2 fs-7">
                             <img src="./assets/images/svg/title-line.svg" class="me-1" alt="">БОЛЬШЕ УСЛУГ ДЛЯ ВАШЕГО
                             ОТДЫХА
                         </h4>
-                        <h3 class="text-black fw-semibold display-5 mb-4 pb-2">Дополнительные услуги</h3>
+                        <h3 class="text-black fw-semibold display-5">Дополнительные услуги</h3>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -543,6 +829,7 @@
         </div>
     </div>
 </footer>
+
 <!--================ SCROLL UP | Omonjon ================-->
 <a href="#" class="scroll_up" id="scroll-up">
     <i class="bx bx-up-arrow-alt"></i>
