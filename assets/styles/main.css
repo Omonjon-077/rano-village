@@ -430,9 +430,37 @@ a {
 /*=============== CONTACT FORM | Omonjon ===============*/
 .contact-form {
     padding-bottom: 100px;
+    form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+        row-gap: 24px;
+        label {
+            font-weight: 500;
+            font-size: 18px;
+            color: rgb(4, 12, 2);
+            margin-bottom: 8px;
+        }
+        input {
+            width: 100%;
+            border: 1px solid #DFDFDF !important;
+            padding: 24px;
+            font-size: 18px;
+            &::placeholder {
+                color: #040C0280;
+            }
+        }
+        button {
+            padding: 8px 24px;
+            color: white;
+            font-weight: 500;
+            background-color: #52A93C;
+            font-size: 18px;
+        }
+    }
 }
 
-/*=============== CONTACT FORM | Omonjon ===============*/
+/*=============== FOOTER | Omonjon ===============*/
 .footer {
     padding: 100px 0;
     background-color: #212C2A;

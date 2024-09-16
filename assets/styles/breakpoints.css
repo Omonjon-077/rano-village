@@ -63,6 +63,16 @@
         }
     }
 
+    .contact-form {
+        padding-bottom: 50px;
+        form {
+            grid-template-columns: repeat(1, 1fr);
+            button {
+               width: 100%;
+            }
+        }
+    }
+
     .w-100Mb {
         width: 100% !important;
     }
