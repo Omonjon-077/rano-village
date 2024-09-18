@@ -215,7 +215,8 @@ a {
         color: var(--bs-primary) !important;
     }
 
-    .filter-invert-1 {
+    .filter-invert-1,
+    ul li a img{
         filter: invert(1) !important;
     }
 
