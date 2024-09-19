@@ -6,7 +6,13 @@
 }
 
 @media (min-width: 992px) {
+    .photos-self-h-small {
+        height: 251px;
+    }
 
+    .photos-self-h-big {
+        height: 420px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -15,6 +21,14 @@
             top: 105px;
             left: 88px;
         }
+    }
+
+    .photos-self-h-small {
+        height: 300px;
+    }
+
+    .photos-self-h-big {
+        height: 500px;
     }
 }
 
@@ -52,6 +66,11 @@
             top: 160px;
             left: 120px;
         }
+        .row.row-gap-4 {
+            img {
+                height: 100%;
+            }
+        }
     }
 }
 
@@ -65,10 +84,12 @@
 
     .contact-form {
         padding-bottom: 50px;
+
         form {
             grid-template-columns: repeat(1, 1fr);
+
             button {
-               width: 100%;
+                width: 100%;
             }
         }
     }
