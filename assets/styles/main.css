@@ -216,7 +216,7 @@ a {
     }
 
     .filter-invert-1,
-    ul li a img{
+    ul li a img {
         filter: invert(1) !important;
     }
 
@@ -414,6 +414,60 @@ a {
     }
 }
 
+/* Modal uslublari */
+.modal-img {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+
+    .modal-content {
+        width: 80%;
+        max-width: 700px;
+    }
+
+    .caption {
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .nav-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    #prev-btn {
+        left: 30px;
+    }
+
+    #next-btn {
+        right: 30px;
+    }
+}
+
 /*=============== CONTACT SECTION | Omonjon ===============*/
 .contact-section {
     padding: 100px 0;
@@ -431,26 +485,31 @@ a {
 /*=============== CONTACT FORM | Omonjon ===============*/
 .contact-form {
     padding-bottom: 100px;
+
     form {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 24px;
         row-gap: 24px;
+
         label {
             font-weight: 500;
             font-size: 18px;
             color: rgb(4, 12, 2);
             margin-bottom: 8px;
         }
+
         input {
             width: 100%;
             border: 1px solid #DFDFDF !important;
             padding: 24px;
             font-size: 18px;
+
             &::placeholder {
                 color: #040C0280;
             }
         }
+
         button {
             padding: 8px 24px;
             color: white;

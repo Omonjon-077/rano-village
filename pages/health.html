@@ -21,12 +21,21 @@
     <link rel="stylesheet" href="../assets/styles/bootstrap.min.css">
 
     <!--================ STYLE CSS | Omonjon ================-->
-    <link rel="stylesheet" href="../assets/styles/main.css?v=0.6">
-    <link rel="stylesheet" href="../assets/styles/breakpoints.css?v=0.4">
+    <link rel="stylesheet" href="../assets/styles/main.css?v=0.7">
+    <link rel="stylesheet" href="../assets/styles/breakpoints.css?v=0.5">
 
     <title>Оздоровительная программа</title>
 </head>
 <body>
+<!--==================== MODAL IMG | Omonjon ====================-->
+<div id="modal" class="modal-img">
+    <span class="close" id="close-btn"><i class='bx bx-lg bx-x'></i></span>
+    <img src="" alt="" class="modal-content" id="modal-image">
+    <div class="caption" id="caption"></div>
+    <button id="prev-btn" class="nav-btn"><i class='bx bx-lg bx-chevron-left'></i></button>
+    <button id="next-btn" class="nav-btn"><i class='bx bx-lg bx-chevron-right' ></i></button>
+</div>
+
 <!--==================== HEADER | Omonjon ====================-->
 <header class="header position-relative">
     <img src="../assets/images/intro-bg.png" alt="" class="position-absolute w-100 h-100 top-0">
@@ -411,37 +420,37 @@
             <div class="row row-gap-4">
                 <div class="col-md-6">
                     <div class="d-flex align-items-center justify-content-center h-100">
-                        <img src="../assets/images/photo-1.jpg" class="w-100 photos-self-h-small" alt="">
+                        <img src="../assets/images/photo-1.jpg" class="w-100 transition cursor-pointer gallery-item photos-self-h-small" alt="">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 d-none d-md-block">
                     <div class="d-flex align-items-center justify-content-center h-100">
-                        <img src="../assets/images/photo-2.jpg" class="w-100" alt="">
+                        <img src="../assets/images/photo-2.jpg" class="w-100 transition cursor-pointer gallery-item" alt="">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 d-none d-md-block">
                     <div class="d-flex align-items-center justify-content-center h-100">
-                        <img src="../assets/images/photo-3.jpg" class="w-100" alt="">
+                        <img src="../assets/images/photo-3.jpg" class="w-100 transition cursor-pointer gallery-item" alt="">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 d-none d-md-block">
                     <div class="d-flex flex-column align-items-center justify-content-center row-gap-4 h-100">
-                        <img src="../assets/images/photo-4.jpg" class="w-100" alt="">
-                        <img src="../assets/images/photo-5.jpg" class="w-100" alt="">
+                        <img src="../assets/images/photo-4.jpg" class="w-100 transition cursor-pointer gallery-item" alt="">
+                        <img src="../assets/images/photo-5.jpg" class="w-100 transition cursor-pointer gallery-item" alt="">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex align-items-center justify-content-center h-100">
-                        <img src="../assets/images/photo-6.jpg" class="w-100 photos-self-h-big" alt="">
+                        <img src="../assets/images/photo-6.jpg" class="w-100 transition cursor-pointer gallery-item photos-self-h-big" alt="">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex flex-column align-items-center justify-content-center row-gap-4 h-100">
-                        <img src="../assets/images/photo-7.jpg" class="w-100" alt="">
-                        <a href="#" class="position-relative w-100">
+                        <img src="../assets/images/photo-7.jpg" class="w-100 transition cursor-pointer gallery-item" alt="">
+                        <div class="position-relative w-100">
                             <span class="position-absolute text-white display-3 z-1 photos-num">10+</span>
-                            <img src="../assets/images/photo-8.jpg" class="w-100" alt="">
-                        </a>
+                            <img src="../assets/images/photo-8.jpg" class="w-100 transition cursor-pointer gallery-item" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -491,7 +500,7 @@
                     <div class="position-relative">
                         <span class="location-pattern position-absolute z-n1 w-100 border border-primary"></span>
                         <iframe class="px-sm-4 px-2 mt-4 pt-2"
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23988.73637779026!2d69.25568298413083!3d41.274217586122724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1726033173952!5m2!1sru!2s"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1796.8804608911748!2d69.6877220703976!3d41.172200523969266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38afb3efc8fdf48f%3A0x2427aab999686d50!2sZamona%20Rano!5e1!3m2!1sru!2s!4v1726727107157!5m2!1sru!2s"
                                 width="100%" height="607" style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
@@ -574,7 +583,7 @@
 <script src="../assets/script/bootstrap.bundle.min.js"></script>
 
 <!--================ MAIN JS | Omonjon ================-->
-<script src="../assets/script/main.js?v=0.3"></script>
+<script src="../assets/script/main.js?v=0.4"></script>
 </body>
 
 </html>

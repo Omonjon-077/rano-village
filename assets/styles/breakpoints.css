@@ -3,6 +3,12 @@
     .border-md-none {
         border: none !important;
     }
+
+    .photos-section {
+        .gallery-item:hover {
+            transform: scale(1.1);
+        }
+    }
 }
 
 @media (min-width: 992px) {
@@ -195,6 +201,16 @@
     .slimming-page {
         .header {
             height: 800px;
+        }
+    }
+
+    .modal-img {
+        #prev-btn {
+            left: 10px;
+        }
+
+        #next-btn {
+            right: 10px;
         }
     }
 }
