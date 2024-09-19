@@ -115,6 +115,12 @@ function handleSwipe(startX, endX) {
     }
 }
 
+// Close tugmasiga bosilganda modalni yopish
+closeBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+    document.body.style.overflow = '';  // Scrollni qayta yoqish
+});
+
 /*=============== Show scroll up ===============*/
 if ($("#scroll-up").length) {
     const scrollUp = () => {
