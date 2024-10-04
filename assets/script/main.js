@@ -131,3 +131,38 @@ if ($("#scroll-up").length) {
     }
     window.addEventListener('scroll', scrollUp);
 }
+
+/*=============== FORM CONTACT ===============*/
+$(document).ready(function () {
+    $('#contact-form form').on('submit', function (e) {
+        e.preventDefault(); // Formaning default yuborilishini oldini olamiz
+
+        // Formadagi name va phone qiymatlarini olamiz
+        const name = $('#user-name').val(),
+            phone = $('#user-phone').val();
+
+        if (!name || !phone) {
+            alert('Iltimos, barcha maydonlarni to\'ldiring!'); // Xatolik haqida alert
+            return; // Yuborishni to'xtatamiz
+        }
+
+        // Agar barcha maydonlar to'ldirilgan bo'lsa, AJAX so'rovini yuboramiz
+        $.ajax({
+            url: '/armo.php', // O'zingizning API manzilingizni qo'ying
+            type: 'POST', // So'rov turini ko'rsatamiz, POST yoki GET
+            data: {
+                name: name,
+                phone: phone
+            },
+            success: function (response) {
+                // Agar muvaffaqiyatli bo'lsa, javobni ko'rsatamiz
+                console.log('Muvaffaqiyatli yuborildi:', response);
+
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                // Xatolik bo'lsa, konsolda xatolikni ko'rsatamiz
+                alert(`Serverda xatolik yuz berdi, iltimos keyinroq urinib ko'ring`);
+            }
+        });
+    });
+});
