@@ -73,6 +73,21 @@
     <title>Оздоровительная программа</title>
 </head>
 <body>
+<!--==================== TOAST | Omonjon ====================-->
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <img src="../assets/images/svg/favicon.svg" style="filter: invert(1)" class="rounded me-2" alt="...">
+            <strong class="me-auto">Rano Eco Village</strong>
+            <small>Cейчас</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            Ваша заявка отправлена
+        </div>
+    </div>
+</div>
+
 <!--==================== MODAL IMG | Omonjon ====================-->
 <div id="modal" class="modal-img">
     <span class="close" id="close-btn"><i class='bx bx-lg bx-x'></i></span>
@@ -552,50 +567,12 @@
     <!--================ CONTACT FORM | Omonjon ================-->
     <section id="contact-form" class="contact-form">
         <div class="container">
-            <h4 class="text-primary d-flex align-content-md-start column-gap-2 fs-7 d-none">
+            <h4 class="text-primary d-flex align-content-md-start column-gap-2 fs-7">
                 <img src="./assets/images/svg/title-line.svg" class="me-1" alt="">Оставить заявку
             </h4>
-            <h3 class="text-black fw-semibold display-5 mb-5 d-none">Оставьте заявку, наши специалисты свяжутся с
+            <h3 class="text-black fw-semibold display-5 mb-5">Оставьте заявку, наши специалисты свяжутся с
                 Вами</h3>
-            <div class="d-md-none">
-                <script>!function (a, m, o, c, r, m) {
-                    a[o + c] = a[o + c] || {
-                        setMeta: function (p) {
-                            this.params = (this.params || []).concat([p])
-                        }
-                    }, a[o + r] = a[o + r] || function (f) {
-                        a[o + r].f = (a[o + r].f || []).concat([f])
-                    }, a[o + r]({
-                        id: "1415194",
-                        hash: "b031cd06ee5741f65f219bfc0e43fb93",
-                        locale: "ru"
-                    }), a[o + m] = a[o + m] || function (f, k) {
-                        a[o + m].f = (a[o + m].f || []).concat([[f, k]])
-                    }
-                }(window, 0, "amo_forms_", "params", "load", "loaded");</script>
-                <script id="amoforms_script_1415194" async="async" charset="utf-8"
-                        src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1727242445"></script>
-            </div>
-            <div class="d-none d-md-block">
-                <script>!function (a, m, o, c, r, m) {
-                    a[o + c] = a[o + c] || {
-                        setMeta: function (p) {
-                            this.params = (this.params || []).concat([p])
-                        }
-                    }, a[o + r] = a[o + r] || function (f) {
-                        a[o + r].f = (a[o + r].f || []).concat([f])
-                    }, a[o + r]({
-                        id: "1415730",
-                        hash: "f209e39f76a6070967ef043b70f18fb4",
-                        locale: "ru"
-                    }), a[o + m] = a[o + m] || function (f, k) {
-                        a[o + m].f = (a[o + m].f || []).concat([[f, k]])
-                    }
-                }(window, 0, "amo_forms_", "params", "load", "loaded");</script>
-                <script id="amoforms_script_1415730" async="async" charset="utf-8"
-                        src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1727244118"></script>
-            </div>
-            <form action="" method="get" class="d-none">
+            <form action="" class="">
                 <div class="">
                     <label for="user-name" class="">Как к вам обратиться?</label>
                     <input id="user-name" type="text" class="" placeholder="Ваше имя"

@@ -138,7 +138,7 @@ $(document).ready(function () {
         e.preventDefault(); // Formaning default yuborilishini oldini olamiz
 
         // Formadagi name va phone qiymatlarini olamiz
-        const name = $('#user-name').val(),
+        let name = $('#user-name').val(),
             phone = $('#user-phone').val();
 
         if (!name || !phone) {
@@ -156,8 +156,12 @@ $(document).ready(function () {
             },
             success: function (response) {
                 // Agar muvaffaqiyatli bo'lsa, javobni ko'rsatamiz
-                alert('Muvaffaqiyatli yuborildi:', response);
-
+                let name = $('#user-name').val('');
+                let phone = $('#user-phone').val('');
+                document.querySelector(".toast").classList.add('show');
+                setTimeout(function () {
+                    document.querySelector(".toast").classList.remove('show');
+                }, 5000);
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 // Xatolik bo'lsa, konsolda xatolikni ko'rsatamiz
