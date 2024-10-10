@@ -156,7 +156,7 @@ $(document).ready(function () {
             },
             success: function (response) {
                 // Agar muvaffaqiyatli bo'lsa, javobni ko'rsatamiz
-                console.log('Muvaffaqiyatli yuborildi:', response);
+                alert('Muvaffaqiyatli yuborildi:', response);
 
             },
             error: function (jqXHR, textStatus, errorThrown) {
